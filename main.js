@@ -10,8 +10,8 @@ let win
 function createTouchBar() {
 
   const touchBarColorPicker = new TouchBarColorPicker({
-    availableColors: ['#FFFFFF', '#000000'],
-    selectedColor: '#00000000',
+    availableColors: ['#0040ff', '#ff0040', '#00ff40', '#ffbf00'],
+    selectedColor: '#ff0040',
     change: function(color) {
       dialog.showMessageBox(win, {
         type: 'info',
